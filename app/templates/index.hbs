@@ -1,0 +1,19 @@
+{{outlet}}
+
+<div id="carousel">
+  <ul>
+    <li><img src="http://www.redstate.com/uploads/2015/07/trumpimage.jpg"></li>
+    <li><img src="http://barkpost.com/wp-content/uploads/2014/03/corgistampede-671x324.jpg"></li>
+    <li><img src="https://timewellness.files.wordpress.com/2014/01/186345703.jpg?w=720"></li>
+    <li><img src="http://www.amazingplacesonearth.com/wp-content/uploads/2012/08/mount-hood.jpg"></li>
+    <li><img src="http://www.cnyhiking.com/BRP-Bl4.jpg"></li>
+  </ul>
+</div>
+
+<div class="row">
+  {{#each model as |article-from-template|}}
+    <div class="col-md-3">
+      {{article-tile article=article-from-template}}
+    </div>
+  {{/each}}
+</div>
