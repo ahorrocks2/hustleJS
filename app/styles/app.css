@@ -20,21 +20,19 @@
   width:25px;
 }
 
-#carousel {
-	width: 480px;
-	overflow:hidden;
+.socialMedia:hover {
+  display: none;
+  /*text-decoration: underline;
+  color: blue;*/
+
 }
 
-#carousel ul {
-	width: 1920px;
-	padding: 0;
-	margin: 0;
+.carouselIMG {
+  height: 400px;
+  width: 600px;
+  padding: 10px;
 }
+#menu{
+  /*display: none;*/
 
-#carousel ul li {
-	width:480px;
-	text-align: center;
-	height: 280px;
-	list-style: none;
-	float:	left;
 }

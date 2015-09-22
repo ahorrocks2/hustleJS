@@ -14,7 +14,8 @@
     "qunit": "~1.18.0",
     "bootstrap": "~3.3.2",
     "firebase": "^2.1.0",
-    "fontawesome": "~4.4.0"
+    "fontawesome": "~4.4.0",
+    "carousel": "~1.2.2"
   },
   "resolutions": {
     "jquery": "^1.11.3"
